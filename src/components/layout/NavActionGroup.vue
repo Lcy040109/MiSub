@@ -4,7 +4,6 @@
     import BaseIcon from '../ui/BaseIcon.vue';
     import ThemeToggle from '../features/ThemeToggle.vue';
     import LoginEntryButton from './LoginEntryButton.vue';
-    import ExternalRepoButton from './ExternalRepoButton.vue';
     import LanguageSwitcher from './LanguageSwitcher.vue';
     import { NAV_ICONS } from '../../constants/navigation.js';
     import { useI18n } from '../../i18n/index.js';
@@ -147,8 +146,6 @@
         </template>
 
         <template v-else>
-            <ExternalRepoButton v-if="!hideExternalRepo" :class-name="buildBtnClass('neutral')" />
-
             <LoginEntryButton v-if="showLoginButton" />
         </template>
     </div>
