@@ -14,8 +14,8 @@
 <template>
     <router-link to="/" class="nav-brand-wrap">
         <div class="nav-brand-badge nav-brand-badge-sm" aria-hidden="true">
-            <img :width="iconSize" :height="iconSize" src="/logo.png" alt="MiSub" />
+            <img :width="iconSize" :height="iconSize" src="/logo.png" alt="小卢机场" />
         </div>
-        <span class="nav-brand-text" :class="textSizeClass">MiSub</span>
+        <span class="nav-brand-text" :class="textSizeClass">小卢机场</span>
     </router-link>
 </template>
